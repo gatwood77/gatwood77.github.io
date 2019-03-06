@@ -4,15 +4,15 @@ body {
   margin: 10px;
 }
 
-div.background {
-  background: url("./images/powder.jpg") no-repeat;
+/*div.background {
+  background: url("") no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 122vh;
   width: 80%;
   margin: 50px 50px 50px 150px;
-}
+}*/
 
 div.transbox {
   margin: 30px;
@@ -246,6 +246,11 @@ section.container .row {
 
 #des {
   color: black;
+  margin-top: 50px;
+}
+
+#thumbpic {
+  margin-top: 25px;
 }
 
 #address {
@@ -254,6 +259,15 @@ section.container .row {
 
 #aboutphoto {
   background-image: url("./images/refinish.jpg")
+}
+
+#pricepage {
+  background-image: url("./images/refinish.jpg");
+  border: 50px solid white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px 600px;
+
 }
 
 .topnav {
