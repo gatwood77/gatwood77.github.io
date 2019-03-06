@@ -49,8 +49,9 @@ div.transbox p {
 }
 
 td, th {
-  text-align: center;
-  color: black;
+   text-align: center;
+  padding: 8px;
+
 }
 #theader {
   text-align: center;
@@ -65,7 +66,11 @@ td, th {
 
 .table {
   text-align: center;
+  border-collapse: collapse;
+  width: 100%;
 }
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 .yomomma {
   width: 325px;
@@ -262,11 +267,10 @@ section.container .row {
 }
 
 #pricepage {
-  background-image: url("./images/refinish.jpg");
-  border: 50px solid white;
+  background-image: url("./images/logo.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 800px 600px;
+  background-size: 1200px 900px;
 
 }
 
