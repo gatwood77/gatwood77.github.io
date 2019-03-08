@@ -18,7 +18,7 @@ div.transbox {
   margin: 30px;
   padding-bottom: 75 px;
   background-color: #ffffff;
-  border: 1px solid black;
+  border: 1px solid white;
   opacity: 0.9;
   filter: alpha(opacity=90);
    /* For IE8 and earlier */
@@ -51,6 +51,7 @@ div.transbox p {
 td, th {
    text-align: center;
   padding: 8px;
+  font-weight: bold;
 
 }
 #theader {
@@ -68,6 +69,7 @@ td, th {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+  border: 1px solid white;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
@@ -82,8 +84,8 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 .yomomma2 {
   width: 325px;
   height: 325px;
-  float: right;
-  margin-right: 225px;
+  clear: left;
+  margin-left: 25px;
 }
 
 #test1 {
@@ -113,7 +115,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   text-align: center;
 }
 
-
+#imgsize {
+  height: 300px;
+  width: 200px;
+}
 ul {
   list-style: none;
   display: flex;
@@ -241,7 +246,7 @@ section.container .row {
 }
 
 #logo {
-  margin-left: 0px;
+  margin-left: 10px;
 }
 
 #social {
@@ -273,6 +278,7 @@ section.container .row {
   background-size: 1200px 900px;
 
 }
+
 
 .topnav {
   overflow: hidden;
