@@ -13,7 +13,22 @@ body {
   width: 80%;
   margin: 50px 50px 50px 150px;
 }*/
+/*contact map css*/
+.googlemap {
+        position: relative;
+        padding-left: 50%;
+        padding-bottom: 30%; /* 4:3 ratio*/
+        height: 0;
+        overflow: hidden;
+}
 
+.googlemap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 div.transbox {
   margin: 30px;
   padding-bottom: 75 px;
@@ -22,6 +37,13 @@ div.transbox {
   opacity: 0.9;
   filter: alpha(opacity=90);
    /* For IE8 and earlier */
+}
+#address1 {
+  margin: 2px;
+}
+#address2 {
+  margin: 2px;
+  padding-top: 50px;
 }
 #contact1 {
   position: relative;
