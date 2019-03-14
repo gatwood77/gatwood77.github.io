@@ -184,13 +184,17 @@ nav > p {
   border-radius: 5px;
   text-align: center;
   color: white;
-}
-
-.pill-black {
-  background-color: #000000;
-  color: #FFFFFF;
 }*/
 
+.pill-black {
+  background-color: #3B5998;
+  color: #FFFFFF;
+}
+
+.button {
+  padding-left: 489px;
+  padding-bottom: 10px;
+}
 
 /*a {
   color: white;
@@ -404,3 +408,24 @@ section.container .row {
   color: #f39c12;
 }
 
+/* rims style */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
