@@ -29,6 +29,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 div.transbox {
   margin: 30px;
   padding-bottom: 75 px;
@@ -38,6 +39,7 @@ div.transbox {
   filter: alpha(opacity=90);
    /* For IE8 and earlier */
 }
+
 #address1 {
   margin: 2px;
 }
@@ -186,15 +188,13 @@ nav > p {
   color: white;
 }*/
 
-.pill-black {
+#pill-black {
   background-color: #3B5998;
   color: #FFFFFF;
+  margin-top: 10px;
 }
 
-.button {
-  padding-left: 489px;
-  padding-bottom: 10px;
-}
+
 
 /*a {
   color: white;
