@@ -39,7 +39,11 @@ div.transbox {
   filter: alpha(opacity=90);
    /* For IE8 and earlier */
 }
-
+#rims4sale {
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
 #address1 {
   margin: 2px;
 }
@@ -103,6 +107,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   height: 325px;
   float: left;
   margin-right: 25px;
+  margin-bottom: 15px;
 }
 
 .yomomma2 {
@@ -111,7 +116,9 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   clear: left;
   margin-left: 25px;
 }
-
+p.col-sm-6 {
+  margin-top: 15px;
+}
 #givemespace {
   padding-top: 50px;
 }
@@ -413,7 +420,8 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 100px;
+  height: 100px;
 }
 
 div.gallery:hover {
